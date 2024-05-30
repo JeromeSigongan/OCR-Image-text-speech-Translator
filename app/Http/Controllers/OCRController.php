@@ -4,8 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use GuzzleHttp\Client;
-class OCRController extends Controller
 
+class OCRController extends Controller
 {
     public function processImage(Request $request)
     {
@@ -56,5 +56,5 @@ class OCRController extends Controller
             return 'Error: Failed to upload image';
         }
     }
-    //
+    
 }
